@@ -1,0 +1,36 @@
+2026-10-29 09:20:21 INFO  [com.yin.music.YinMusicApplication] - Starting YinMusicApplication using Java 1.8.0_281 on TCZ-L579364 with PID 35860 (D:\practice\music-website-master\music-server\target\classes started by itoutsource.cz1225 in D:\practice\music-website-master)
+2026-10-29 09:20:21 INFO  [com.yin.music.YinMusicApplication] - The following profiles are active: dev
+2026-10-29 09:20:21 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-29 09:20:21 INFO  [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-29 09:20:22 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2026-10-29 09:20:22 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-29 09:20:22 INFO  [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 49 ms. Found 0 Redis repository interfaces.
+2026-10-29 09:20:25 INFO  [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8888 (http)
+2026-10-29 09:20:25 INFO  [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8888"]
+2026-10-29 09:20:25 INFO  [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2026-10-29 09:20:25 INFO  [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2026-10-29 09:20:25 INFO  [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2026-10-29 09:20:25 INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 4250 ms
+2026-10-29 09:20:26 WARN  [c.b.m.core.metadata.TableInfoHelper] - Can not find table primary key in Class: "com.yin.music.model.domain.SongListStyleRel".
+2026-10-29 09:20:26 WARN  [c.b.m.c.injector.DefaultSqlInjector] - class com.yin.music.model.domain.SongListStyleRel ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-10-29 09:20:30 WARN  [o.s.b.d.a.OptionalLiveReloadServer] - Unable to start LiveReload server
+2026-10-29 09:20:30 INFO  [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8888"]
+2026-10-29 09:20:30 WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8888 is already in use
+2026-10-29 09:20:30 INFO  [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8888"]
+2026-10-29 09:20:30 INFO  [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2026-10-29 09:20:30 INFO  [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8888"]
+2026-10-29 09:20:30 INFO  [o.a.coyote.http11.Http11NioProtocol] - Destroying ProtocolHandler ["http-nio-8888"]
+2026-10-29 09:20:30 ERROR [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
